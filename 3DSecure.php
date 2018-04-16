@@ -64,7 +64,7 @@ Payload:
     },
     "order": {
     	"amount": "1.00",
-    	"currency": "USD"
+    	"currency": "MYR"
     },
     "session": {
     	"id": "SESSION0000000000000000000000"
