@@ -51,7 +51,7 @@ Payload:
     "apiOperation": "PAY",
     "order": {
     	"amount": "1.00",
-    	"currency": "MYR"
+    	"currency": "USD"
     },
     "session": {
     	"id": "SESSION0000000000000000000000"

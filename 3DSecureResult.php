@@ -37,8 +37,6 @@ if (intercept('POST')) {
         )
     );
 
-    echo "Pares" . $post[$paResParam];
-
     // decode paRes by calling Process ACS Result to obtain summaryStatus and gatewayCode
     $response = doRequest($gatewayUrl . '/3DSecureId/' . $threeDSecureId, 'POST', json_encode($data), $headers);
 
